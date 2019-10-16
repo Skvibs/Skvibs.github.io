@@ -1,2 +1,2 @@
-# skvibs.github.io
-My repo
+# Yuriy Stryzhak
+My home tasks
