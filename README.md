@@ -8,3 +8,4 @@
 * [Work 5 "Lesson 4 > simple"](https://skvibs.github.io/my-work5/)
 * [Work 6 "Lesson 4 > hard"](https://skvibs.github.io/my-work6/)
 * [Work 7 "Lesson 5"](https://skvibs.github.io/my-work7/)
+* [Work 8 "Lesson 6"](https://skvibs.github.io/my-work8/)
