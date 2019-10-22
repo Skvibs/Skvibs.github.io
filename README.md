@@ -9,3 +9,4 @@
 * [Work 6 "Lesson 4 > hard"](https://skvibs.github.io/my-work6/)
 * [Work 7 "Lesson 5"](https://skvibs.github.io/my-work7/)
 * [Work 8 "Lesson 6"](https://skvibs.github.io/my-work8/)
+* [Work 9 "Lesson 6"](https://skvibs.github.io/my-work9/)
