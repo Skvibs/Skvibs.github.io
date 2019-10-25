@@ -10,3 +10,4 @@
 * [Work 7 "Lesson 5"](https://skvibs.github.io/my-work7/)
 * [Work 8 "Lesson 6"](https://skvibs.github.io/my-work8/)
 * [Work 9 "Lesson 6"](https://skvibs.github.io/my-work9/)
+* [Work 9 "Lesson 7"](https://skvibs.github.io/my-work10/)
