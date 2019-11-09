@@ -10,7 +10,8 @@
 * [Work 7 "Lesson 5"](https://skvibs.github.io/my-work7/)
 * [Work 8 "Lesson 6"](https://skvibs.github.io/my-work8/)
 * [Work 9 "Lesson 6"](https://skvibs.github.io/my-work9/)
-* [Work 9 "Lesson 7 > Newsletter"](https://skvibs.github.io/my-work10/)
+* [Work 10 "Lesson 7 > Newsletter"](https://skvibs.github.io/my-work10/)
 ###### --------------------------------------------------------------------
-* [Work 10 "Lesson 12 > Cahee + form"](https://skvibs.github.io/my-work11/)
-* [Work 11 "Lesson 12 > Sing in form"](https://skvibs.github.io/my-work12/)
+* [Work 11 "Lesson 12 > Cahee + form"](https://skvibs.github.io/my-work11/)
+* [Work 12 "Lesson 12 > Sing in form"](https://skvibs.github.io/my-work12/)
+* [Work 13 "Lesson 14 > Our Team"](https://skvibs.github.io/my-work13/)
