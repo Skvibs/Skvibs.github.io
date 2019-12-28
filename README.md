@@ -19,3 +19,4 @@
 ###### --------------------------------------------------------------------
 ##### jQuery
 * [Доработка Классной работы](https://skvibs.github.io/Home-Work-Lesson-31.-jQuery/)
+* [Калькулятор] (https://skvibs.github.io/Home-Work-Lesson-31-jQuery/)
