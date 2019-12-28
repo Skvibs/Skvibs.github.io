@@ -18,5 +18,5 @@
 * [Exam](https://skvibs.github.io/exam/)
 ###### --------------------------------------------------------------------
 ##### jQuery
-* [Доработка Классной работы](https://skvibs.github.io/Home-Work-Lesson-31.-jQuery/)
-* [Калькулятор](https://skvibs.github.io/Home-Work-Lesson-31-jQuery/)
+* [Урок 31. Доработка Классной работы](https://skvibs.github.io/Home-Work-Lesson-31.-jQuery/)
+* [Урок 31. Калькулятор](https://skvibs.github.io/Home-Work-Lesson-31-jQuery/)
