@@ -22,3 +22,4 @@
 * [Урок 31. Калькулятор](https://skvibs.github.io/Home-Work-Lesson-31-jQuery/)
 * [Урок 32. Slick Slider](https://skvibs.github.io/home-work-lesson-32/)
 * [Урок 33. Movies](https://skvibs.github.io/movies/)
+* [Exam](https://skvibs.github.io/Exam2/)
