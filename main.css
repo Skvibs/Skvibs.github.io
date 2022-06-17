@@ -1,0 +1,384 @@
+@charset "UTF-8";
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+header,
+footer,
+nav,
+section,
+aside,
+menu,
+audio,
+video,
+details,
+article,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* помните об определении стиля focus! */
+:focus {
+  outline: 0;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+/* для таблиц надо устанавливать в разметке 'cellspacing="0"' */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+
+blockquote,
+q {
+  quotes: """";
+}
+
+
+:root {
+  --coral: #eb7e7f;
+  --greeny: #4EBC9B;
+
+  --radius: 3px;
+}
+
+html,
+body {
+  font-size: 16px;
+}
+
+body {
+  background-color: #fff;
+  font-family: Trebuchet, Arial, sans-serif;
+  background: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #3b3f45;
+  padding-bottom: 50px;
+}
+
+header {
+  background-color: #4a4f56;
+  text-align: center;
+  padding: 25px 0;
+  color: #eb7e7f;
+  margin-bottom: 42px;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 2.06rem;
+  line-height: 42px;
+  margin-bottom: 8px;
+}
+
+header p {
+  font-size: 1.6875rem;
+}
+
+.mainer {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.checklist {
+  margin: 42px 0;
+}
+
+.checklist label {
+  display: block;
+  cursor: pointer;
+  color: #fff;
+  padding: 12px 75px 12px 50px;
+  position: relative;
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid transparent;
+  -webkit-transition: all .1s ease-in;
+  -o-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+
+.checklist label:nth-child(odd) {
+  background-color: #88839e;
+}
+
+.checklist label:nth-child(even) {
+  background-color: #7a7593;
+}
+
+.checklist label:hover {
+  border-color: #fff;
+  background-color: #625e77;
+}
+
+.checklist label:active {
+  background-color: var(--greeny);
+}
+
+.checklist label span {
+  line-height: 34px;
+  font-size: 1.6rem;
+}
+
+.checklist label small {
+  color: #c3c3c3;
+  font-size: 16px;
+}
+
+.checklist label small:before {
+  content: '(';
+}
+
+.checklist label small:after {
+  content: ')';
+}
+
+.checklist input {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.checklist input:checked~* {
+  text-decoration: line-through;
+  color: #c3c3c3;
+  opacity: .7;
+}
+
+.btn {
+  color: #fff !important;
+  text-decoration: none !important;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+  border-radius: var(--radius);
+  transition: all .25s;
+  opacity: 0.7;
+}
+
+.btn-more {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  right: 19px;
+  font-size: 32px;
+  padding: 0px 10px 18px;
+  z-index: 1;
+}
+
+.btn-more:hover {
+  background-color: var(--coral);
+  opacity: 1;
+}
+
+.btn-del {
+  font-size: 20px;
+  padding: 11px 14px;
+  background-color: var(--coral);
+  opacity: 1;
+}
+
+.hidden-actions {
+  display: none;
+  position: absolute;
+  right: 19px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.set {
+  background-color: #88839e;
+  padding: 12px 15px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.set__control {
+  border-radius: var(--radius);
+  border: none;
+  font-family: Trebuchet, Arial, sans-serif;
+  outline: none;
+  padding: 10px 15px;
+  min-height: 50px;
+  font-size: 16px;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #fff;
+  transition: all .25s;
+}
+
+.set__control::placeholder {
+  opacity: .5;
+  transition: all .25s;
+}
+
+.set__control:focus::placeholder {
+  opacity: 0;
+}
+
+.set__input {
+  flex-grow: 1;
+  color: rgba(0, 0, 0, .7);
+  border: 1px solid transparent;
+}
+
+.set__input.error {
+  border-color: var(--coral);
+}
+
+.set__input.error::placeholder {
+  color: var(--coral);
+  opacity: 1;
+}
+
+.set__input.error:focus::placeholder {
+  opacity: 0;
+}
+
+.set__btn {
+  flex-grow: 1;
+  cursor: pointer;
+  background-color: var(--greeny);
+  color: #fff;
+  transition: all .25s;
+  font-size: 24px;
+}
+
+.set__btn:hover {
+  transform: scale(.98);
+}
+
+footer .mainer {
+  background-color: #4a4f56;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #eb7e7f;
+  box-sizing: border-box;
+}
+
+
+/* Media */
+@media screen and (max-width: 768px) {
+  header {
+    margin-bottom: 30px;
+  }
+
+  .set-list {
+    padding: 0;
+  }
+
+  .set {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .checklist {
+    margin: 30px 0;
+  }
+
+  .checklist input {
+    width: 20px;
+    height: 20px;
+    left: 10px;
+  }
+
+  .checklist label {
+    padding-left: 45px;
+  }
+}
